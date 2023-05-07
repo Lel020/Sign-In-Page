@@ -2,3 +2,36 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #e6e6ff;
+    overflow: hidden;
+}
+
+.login-container{
+    background-color: #000033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 50%;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 12vh;
+}
+
+#left-column{
+    color: wheat;
+    width: 50%;
+}
+
+#logo-image{
+    width: 350px;
+    height: 350px;
+    margin-left: -100px;
+    border-radius: 5px;
+}
+
+#right-column{
+    color: wheat;
+    width: -50%;
+}
