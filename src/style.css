@@ -30,32 +30,34 @@ body{
     margin-top: 150px;
     margin-left: -20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 #right-column{
     color: wheat;
     width: -50%;
+    margin-left: 3%;
 }
 
 h1{
     text-align: center;
     font-size: 200%;
-    margin: 0;
-    margin-right: 100px;
+    margin: 0 auto;
+    margin-right: 90px;
     margin-top: 200px;
     padding-top: 0;
     font-family: 'Brush Script MT', cursive;
 }   
 
 form{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 10px;
-    margin-left: -90px;
-    text-align: left;
+    margin-left: -80px;
+    text-align: center;
 }
 
 input[type="text"], input[type="password"] {
+    text-align: center;
     margin-left: 5px;
     border: none;
     border-bottom: 2px solid wheat;
@@ -63,4 +65,20 @@ input[type="text"], input[type="password"] {
     color: white;
     width: 250px;
     outline: none;
+}
+
+#loginButton{
+    background-color: #00004d;
+    color: wheat;
+    margin-left: 7px;
+    margin-top: 20px;
+    width: 240px;
+    height: 30px;
+    border-color: wheat;
+    border-radius: 5px;
+}
+
+#loginButton:hover{
+    background-color: #002b80;
+    color: wheat;
 }
