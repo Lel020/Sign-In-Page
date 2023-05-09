@@ -85,24 +85,15 @@ input[type="text"], input[type="password"] {
 
 @media only screen and (max-width: 768px){
     body{
-        background-color: black;
+        background-color: #cceeff;
     }
     .login-container{
         width: 100%;
         height: 80vh;
-        flex-direction: column;
-    }
-    #logo-image{
-        width: 150px;
-        height: 150px;
-        margin-left: 62px;
-    }
-    h1{
-        align-items: center;
         justify-content: center;
-        flex-direction: column;
     }
-    form{
-        margin-top: 10px;
+
+    #left-column{
+        display: none;
     }
 }
